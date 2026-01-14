@@ -1,4 +1,4 @@
-1-masala
+//1-masala
 function rearrange(arr) {
   let sorted = [...arr].sort((a, b) => a - b);
   let result = [];
@@ -17,7 +17,7 @@ console.log(rearrange(arr));
 
 //2-masala
 let str ="apple banana apple orange banana orange grape, cherry";
-findUniqeWords(str); // ['grape, 'cherry']
+findUniqeWords(str); 
 function findUniqeWords(str){
     let words = str.split(" ");
     let wordCount = {};
